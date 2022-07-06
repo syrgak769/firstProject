@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.menu {
+  padding: 60px 80px;
+}
+
+.topCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.topCard__img {
+  max-width: 700px;
+}
+.topCard__img img {
+  width: 100%;
+}
+.topCard__texts {
+  align-items: start;
+  max-width: 370px;
+}
+.topCard__texts-title {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 36px;
+  color: #999;
+  margin-bottom: 25px;
+}
+.topCard__texts-title--weight {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+.topCard__texts-subTitle {
+  font-family: "IBM Plex Mono";
+  font-size: 13px;
+  line-height: 24px;
+  color: #999999;
+}
+
+.bottomCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 90px;
+}
+.bottomCard__img {
+  max-width: 700px;
+}
+.bottomCard__img img {
+  width: 100%;
+}
+.bottomCard__texts {
+  align-items: start;
+  max-width: 340px;
+}
+.bottomCard__texts-title {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 36px;
+  color: #999;
+  margin-bottom: 25px;
+}
+.bottomCard__texts-title--weight {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+.bottomCard__texts-subTitle {
+  font-family: "IBM Plex Mono";
+  font-size: 13px;
+  line-height: 24px;
+  color: #999999;
+}
+
+@media screen and (max-width: 1300px) {
+  .menu {
+    padding: 20px 45px;
+  }
+
+  .topCard__img {
+    max-width: 500px;
+  }
+  .topCard__texts {
+    max-width: 320px;
+  }
+  .topCard__texts-title {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .topCard__texts-subTitle {
+    font-size: 12px;
+  }
+
+  .bottomCard__img {
+    max-width: 500px;
+  }
+  .bottomCard__texts {
+    max-width: 320px;
+  }
+  .bottomCard__texts-title {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .bottomCard__texts-subTitle {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .topCard {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+  .topCard__img {
+    margin-bottom: 20px;
+  }
+  .topCard__texts {
+    max-width: 520px;
+    text-align: end;
+  }
+
+  .bottomCard {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: end;
+    justify-content: start;
+  }
+  .bottomCard__img {
+    margin-bottom: 20px;
+  }
+  .bottomCard__texts {
+    max-width: 520px;
+    text-align: end;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
